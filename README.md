@@ -3,6 +3,12 @@ AutoMaxLair is a bot for shiny hunting legendary Pokemon in Dynamax Adventures f
 
 We have migrated our setup and operation instructions to a wiki. [Please refer there for detailed setup and troubleshooting instructions](https://github.com/PokemonAutomation/AutoMaxLair/wiki). 
 
+## Easy OCR Requirements
+- Install pytorch 1.9.1 with CUDA version 10.2
+- pip install easyocr
+
+
+
 ## Acknowledgements
 
 Thanks to [PokéSprite](https://github.com/msikma/pokesprite) for hosting the sprites of the Pokémon and balls and [PokéAPI](https://pokeapi.co/) for hosting data on Pokémon, abilities, and moves. We also thank [LUFA](http://www.lufa-lib.org/) for their AVR framework with which the microcontroller code would not work without. Finally, we thank [brianuuu](https://github.com/brianuuu) for the [AutoController](https://github.com/brianuuu/AutoController_swsh) program family on which our legacy microcontroller code is based.
